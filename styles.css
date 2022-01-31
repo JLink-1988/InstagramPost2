@@ -1,0 +1,148 @@
+/**{
+    border: 3px dashed rgb(139, 80, 80);
+}*/
+body{
+    background: grey;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: x-small;
+    margin: 0;
+}
+
+
+#textheader{
+        position: fixed;
+        background: whitesmoke;
+        width: 216px;
+        z-index: 1;
+        margin-top: 0;
+        padding-left: 849px;
+        padding-right: 849px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++ */
+.post{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+margin-bottom: 100px;
+    background-color: whitesmoke;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+/*top space*/
+.top{
+    width: 440px;
+    display: flex;
+    height: 13%;
+}
+
+/*elements */
+.logo{
+    width: 13%;
+}
+#logo1>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 4px;
+    
+}
+#logo2>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 4px;
+    
+}
+#logo3>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 4px;
+    
+}
+#logo4>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 11px;
+    margin-left: 4px;
+    
+}
+.name{
+display: flex;
+flex-direction: column;
+margin-top: 23px;
+margin-left: 7px;
+}
+.name>p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.points{
+    margin-left: 323px;
+    margin-top: 14px;
+    font-size: x-large;
+}
+
+/*-+++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*center space */
+.center{
+    height: 54%;
+}
+.center>img{
+    width: 100%;
+}
+
+
+
+/*bottom space */
+.bottom{
+    height: 30%;
+    width: 90%;
+    margin: 0px 22px 0px;
+}
+
+.icons{
+    width: 91%;
+    height: 10%;
+    margin: 34px;
+    margin-top: 6px;
+    margin-left: 22px;
+    margin-bottom: 0px;
+}
+
+.icons_left{
+    float: left;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+.icons_right{
+    float: right;
+    margin-top: 0px;
+    font-size: xx-large;
+;
+}
+.reactions{
+    margin-top: 14px;
+    margin-left: 0px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++SCROLLING PAGE */
+
+.scrollinpage{
+    overflow: auto;
+}
